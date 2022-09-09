@@ -32,5 +32,5 @@ We can, and should, add an additional check that looks through context to see if
 
 The network can be used by finding the full similarity of an input paragraph, and then comparing the resultant neural map to all other neural maps we've generated. The one with the highest similarity is the recommended object.
 
-We can ask the user to input the accuracy of the system with a simple y/n question, or by giving them a list of the top-x objects and having them pick which one is the best for them
+We can ask the user to input the accuracy of the system with a simple y/n question, or by giving them a list of the top-x objects and having them pick which one is the best for them. Hebbian learning uses the principle of "neurones that fire together wire together," so we should strengthen the connection of accuracies, and weaken the connection of innacuracies.
 
